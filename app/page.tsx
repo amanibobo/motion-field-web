@@ -2,12 +2,12 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="absoluteinset-0 -z-10 w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e6be_130%)]">
+    <div className="absoluteinset-0 -z-10 w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#5A8EE8_130%)]">
     <div className="min-h-screen  text-white">
       {/* Container for all content */}
       <div className="max-w-5xl mx-auto">
         {/* Top Marketing Section */}
-        <section className="h-[80vh] flex items-center justify-center px-3 sm:px-4 lg:px-6">
+        <section className="h-[50vh] flex items-center justify-center px-3 sm:px-4 lg:px-6">
           <div className="w-full text-center space-y-6">
             <h1 
             style={{
@@ -42,7 +42,7 @@ export default function Home() {
         <section className="min-h-[60vh] flex items-center justify-center px-3 sm:px-4 pb-20">
           <div className="w-full max-w-5xl">
             <Image 
-              src="/app_hero.webp" 
+              src="/newMotion.png" 
               alt="MotionField Application Interface" 
               width={1200} 
               height={800}
