@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="absoluteinset-0 -z-10 w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#5A8EE8_130%)]">
+    <div className="absolute inset-0 -z-10 w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#5A8EE8_130%)]">
     <div className="min-h-screen  text-white">
       {/* Container for all content */}
       <div className="max-w-5xl mx-auto">
