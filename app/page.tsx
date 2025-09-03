@@ -2,10 +2,10 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="absolute inset-0 -z-10 w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#5A8EE8_130%)]">
-    <div className="min-h-screen  text-white">
+    
+    <div className="min-h-screen  text-white inset-0 -z-10 w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#5A8EE8_170%)]">
       {/* Container for all content */}
-      <div className="max-w-5xl mx-auto">
+      <div className="max-w-5xl mx-auto ">
         {/* Top Marketing Section */}
         <section className="h-[50vh] flex items-center justify-center px-3 sm:px-4 lg:px-6">
           <div className="w-full text-center space-y-6">
@@ -69,7 +69,7 @@ export default function Home() {
               <div className="bg-gray-600/20 backdrop-blur-sm rounded-lg shadow-lg p-6 border border-white/10">
                 <div className="bg-black/30 rounded-lg p-4 mb-4 h-48 flex items-center justify-center">
                   <Image 
-                    src="/app_hero.webp" 
+                    src="/newMotion.png" 
                     alt="MotionField Interface" 
                     width={200} 
                     height={150}
@@ -86,7 +86,7 @@ export default function Home() {
               <div className="bg-gray-600/20 backdrop-blur-sm rounded-lg shadow-lg p-6 border border-white/10">
                 <div className="bg-black/30 rounded-lg p-4 mb-4 h-48 flex items-center justify-center">
                   <Image 
-                    src="/app_hero.webp" 
+                    src="/newMotion.png" 
                     alt="MotionField Interface" 
                     width={200} 
                     height={150}
@@ -103,7 +103,7 @@ export default function Home() {
               <div className="bg-gray-600/20  backdrop-blur-sm rounded-lg shadow-lg p-6 border border-white/10">
                 <div className="bg-black/30 rounded-lg p-4 mb-4 h-48 flex items-center justify-center">
                   <Image 
-                    src="/app_hero.webp" 
+                    src="/newMotion.png" 
                     alt="MotionField Interface" 
                     width={200} 
                     height={150}
@@ -147,7 +147,6 @@ export default function Home() {
           </div>
         </footer>
       </div>
-    </div>
     </div>
   );
 }
